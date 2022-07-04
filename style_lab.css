@@ -1,0 +1,50 @@
+header {
+    background-color: dodgerblue;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0;
+    column-count: 2;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    column-count: 2;
+    column-width: auto;
+    width: 80%;
+    margin: auto;
+}
+
+main.column(1) {width: 80px}
+
+aside {
+    break-before: column;
+}
+
+article {
+    width: 80%;
+    margin: auto;
+
+}
+
+#comments {
+    width: 80%;
+    margin: auto;
+}
+
+#comments_form {
+    
+
+}
+
+footer {
+    background-color: dodgerblue;
+    color: white;
+    padding: 6px;
+    text-align: center;
+}
